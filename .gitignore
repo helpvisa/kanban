@@ -1,0 +1,5 @@
+# ignore mac os files
+.DS_SWAP
+
+# ignore swap files
+*.swp
