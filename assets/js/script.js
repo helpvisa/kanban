@@ -31,6 +31,7 @@ function processForm(event) { // processes user's form input and sends it to the
     }
     else {
         var taskObject = {name: taskName, type: taskType}; // create an object which contains the task information
+        formEl.reset();
         addTask(taskObject); // return this object
     }
 }
